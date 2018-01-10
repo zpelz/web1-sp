@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Your awesome title</title>
+		<description>A starter site</description>
+		<link>http://localhost:8000</link>
+		<atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Test</title>
+				<description></description>
+				<pubDate>Wed, 10 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:8000/2018/01/10/test.html</link>
+				<guid isPermaLink="true">http://localhost:8000/2018/01/10/test.html</guid>
+			</item>
+		
+			<item>
+				<title>Hello world</title>
+				<description></description>
+				<pubDate>Tue,  9 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:8000/2018/01/09/hello.html</link>
+				<guid isPermaLink="true">http://localhost:8000/2018/01/09/hello.html</guid>
+			</item>
+		
+	</channel>
+</rss>

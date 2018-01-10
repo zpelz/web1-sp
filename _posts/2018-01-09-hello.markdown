@@ -1,0 +1,6 @@
+---
+layout: post
+title: "Hello world"
+---
+
+This is a post. Rename the file and replace it with a real post.
