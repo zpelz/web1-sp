@@ -8,3 +8,9 @@ url: "http://adavidramos.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+defaults:  
+  # template for pages unless an alternative is specified
+  - scope:
+      path: ""
+    values:
+      layout: "default"
