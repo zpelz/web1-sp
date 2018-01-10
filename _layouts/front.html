@@ -1,15 +1,12 @@
----
----
 
 {{ body }}
 
 {% for post in site.posts %}
-	<item>
-		<title>{{ post.title }}</title>
-		<description>{{ post.teaser | xml_escape }}</description>
-		<pubDate>{{ post.date | date: "%a, %e %b %Y %H:%M:%S %z" }}</pubDate>
-		<link>{{ site.url }}{{ post.url }}</link>
-		<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-	</item>
+	<article>
+		<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p>{{ post.date | date: "%a, %e %b %Y" }}</p>
+		{{ post.teaser }}        
+	</article>
 {% endfor %}
 
+x

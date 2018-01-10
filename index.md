@@ -1,4 +1,5 @@
 ---
+layout: front
 ---
 
 Hello there
