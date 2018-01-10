@@ -1,4 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
 
-<p><a href="{{ site.url}}{{ site.baseurl }}">Home</a></p>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>{{ site.title }}</title>
+	<meta name="description" content="{{ page.description }}">
+	
+	<!-- Enable responsive layouts; tell browsers not to shrink pages to fit small screens -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-{{ content }}
+	<!-- Load styles -->
+	<!-- For production, combine all of the stylesheets -->
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/sitewide.css">
+	
+	<!-- pull in webfonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- Page content goes inside the container -->
+	<!-- In general, you should have only one container per page. -->
+	<div class="container">
+
+        <p><a href="{{ site.url }}{{ site.baseurl }}">Home</a></p>
+
+        <h1>{{ page.title }}</h1>
+
+        {% if page.date %}
+    		<p>{{ page.date | date: "%A, %B %-d, %Y" }}</p>
+        {% endif %}
+
+        {{ content }}
+
+	</div><!-- end container -->
+	
+</body>
+</html>
