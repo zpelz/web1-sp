@@ -1,5 +1,5 @@
-# web1-self-publishing
+# web1 self-publishing
 
-Under development! (Keeping this repo clean during experimental phase.)
+hello@imaginaryterrain.com
 
-Test
+[Students: edit this file!]
