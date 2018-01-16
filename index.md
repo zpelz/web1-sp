@@ -2,4 +2,4 @@
 layout: front
 ---
 
-Hello there
+cool beans
