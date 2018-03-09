@@ -4,3 +4,21 @@ description: "This text shows up in search engine previews"
 ---
 
 This is a post. Rename the file and replace it with a real post.
+
+<h3>Hed Level Three</h3>
+
+Must have the three dashes above and below the "front matter."
+
+### Hed level three (but lowercase)
+
+This is plain text.
+
+Here's another paragraph.
+
+One more just for shits and giggles.
+
+Last one I promise.
+
+I *lied.*
+
+Up there is some shorthand, called Markdown. 
